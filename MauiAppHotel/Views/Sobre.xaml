@@ -6,7 +6,7 @@
 
 
     <Border
-    Stroke="HotPink"
+    Stroke="Aqua"
     StrokeThickness="4"
     StrokeShape="RoundRectangle 15"
     Padding="10"
