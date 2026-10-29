@@ -9,6 +9,6 @@ public partial class ContratacaoDaHospedagem : ContentPage
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("SobrePage");
+        await Navigation.PushAsync(new Sobre());
     }
 }

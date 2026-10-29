@@ -3,10 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHoTel.Views.Sobre"
              Title="Sobre">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+
+    <Border
+    Stroke="HotPink"
+    StrokeThickness="4"
+    StrokeShape="RoundRectangle 15"
+    Padding="10"
+    Margin="20">
+
+        <VerticalStackLayout>
+
+            <Label 
+     Text="Desenvolvido por Damaris Cristina Silva Rezende"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center"
+     Padding="60"/>
+
+            <Label Text="29/10/2026"
+        Padding="10"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"/>
+
+            <Label Text="Mais informações: Damaris começou a estudar programação em fevereiro do ano de 2026, e neste ano foi um dos que mais se orgulha, pois conseguiu conciliar o estudo, com trabalho e preparação para o casamento, e também se casou durante esse período. Ela gostaria de ter mais tempo para estudar, conseguiu acompanhar as atividades, mas não conseguiu estudar sem ser com o curso. Mas de tudo ela está feliz."
+Padding="50"
+VerticalOptions="Center" 
+HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+
+    </Border>
+
 </ContentPage>
