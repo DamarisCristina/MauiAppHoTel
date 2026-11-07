@@ -80,10 +80,10 @@
 
                 </Frame>
 
-                <Button Text="Avançar"/>
+                <Button Text="Avançar" Clicked="Avancar_Clicked"/>
 
                 <Button Text="Sobre" Margin="0,10,0,0"
-                        Clicked="Button_Clicked"    />
+        Clicked="Sobre_Clicked"/>
 
 
             </VerticalStackLayout>
